@@ -1,0 +1,24 @@
+Identifier = "EPGPSlave"
+Name = "HuR EPGP Member Addon"
+NameShort = "EPGPSlave"
+Description = "EPGP Member addon intended to work with EPGP Master addon."
+
+Author = "Xeandr@Sagespire"
+Version = "0.0.1"
+Email = "xeandr@gmail.com"
+Environment = "1.8"
+
+RunOnStartup = {
+	"main.lua",
+	"ui.lua"
+}
+
+SavedVariables = { 
+	epgp = "account",
+	EPGPSlave_x = "character",
+	EPGPSlave_y = "character",
+	EPGPSlave_visible = "character",
+}
+
+Dependencies = {
+}

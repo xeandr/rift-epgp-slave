@@ -10,11 +10,12 @@ Environment = "1.8"
 
 RunOnStartup = {
 	"main.lua",
-	"ui.lua"
+	"ui.lua",
+	"xUI.lua"
 }
 
 SavedVariables = { 
-	epgp = "account",
+	EPGPSlave_epgp = "account",
 	EPGPSlave_x = "character",
 	EPGPSlave_y = "character",
 	EPGPSlave_visible = "character",
